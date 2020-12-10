@@ -62,7 +62,6 @@ then
     echo "$password" > pwd.txt
     registered="1"
     clear
-    exit
 else
     clear
 fi
