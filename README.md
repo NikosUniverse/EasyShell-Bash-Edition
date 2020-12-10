@@ -16,6 +16,7 @@ If you are inside of the shell and you are logged in, type "help" and press ENTE
 
 I CAN'T DO MUCH, WILL THIS BE ADDED LATER?
 This script is currently Work-In-Progress, more things will be added later, whatever will be added, you can see in the "help" menu!
+You can also message me to add something i haven't already!
 
 I HAVE A WINDOWS PC, CAN I USE THIS TOO?
 Well, yes and no! You can download the new "Windows Terminal", enable Windows Subsystem for Linux and install a linux distro via the Microsoft Store. otherwise you won't be able to run it! 
