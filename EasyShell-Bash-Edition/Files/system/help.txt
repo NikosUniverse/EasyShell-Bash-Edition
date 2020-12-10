@@ -5,9 +5,10 @@
           COMMAND LIST:
 help -- shows a help-document
 makefile -- creates a text-file
-removefile -- removes a file             - W.I.P.
-fileview -- read a file                  - W.I.P.
-textedit -- openes a text editor (nano)  - W.I.P.
+removefile -- removes a file
+listfiles -- lists every file in /home
+fileview -- read a file
+textedit -- openes a text editor (nano)
 install -- installs a package
 quit - OR - [Ctrl]+[C] to exit
 
@@ -17,8 +18,6 @@ quit - OR - [Ctrl]+[C] to exit
     -Pamac
     -Yay
     [more will be added later!]
-
-
 
           WORK IN PROGRESS:
 1 - You will later be able to run a shell-script via EasyShell!
@@ -32,4 +31,3 @@ quit - OR - [Ctrl]+[C] to exit
  (if you want to see more, you can message NikosUniverse)
 
  ------------------------------------
-
