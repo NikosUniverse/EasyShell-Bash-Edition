@@ -20,7 +20,7 @@ This script is currently Work-In-Progress, more things will be added later, what
 You can also message me to add something i haven't already!
 
 I HAVE A WINDOWS PC, CAN I USE THIS TOO?
-Well, yes and no! You can download the new "Windows Terminal", enable Windows Subsystem for Linux and install a linux distro via the Microsoft Store. otherwise you won't be able to run it! 
+Well, yes and no! You can download the new "Windows Terminal", enable Windows Subsystem for Linux, install a linux distro via the Microsoft Store and run it on that. otherwise you won't be able to run it! 
 However there is a Version for Windows! It is called "EasyShell-NT-Edition", but it is currently not uploaded to GitHub!
 
 
