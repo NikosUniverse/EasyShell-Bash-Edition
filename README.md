@@ -22,3 +22,10 @@ You can also message me to add something i haven't already!
 I HAVE A WINDOWS PC, CAN I USE THIS TOO?
 Well, yes and no! You can download the new "Windows Terminal", enable Windows Subsystem for Linux and install a linux distro via the Microsoft Store. otherwise you won't be able to run it! 
 However there is a Version for Windows! It is called "EasyShell-NT-Edition", but it is currently not uploaded to GitHub!
+
+
+Supported Package Managers up to today:
+  -Pacman
+  -Pamac
+  -Yay
+ [More will get added later]
