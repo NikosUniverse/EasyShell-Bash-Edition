@@ -1,11 +1,12 @@
 # EasyShell-Bash-Edition
-EasyShell-Bash-Edition is a modern, updated version of EasyShell-NT-Edition - this was the same thing but for Windows and DOS! It makes using your Computer easy! You dont enter parameters but instead the Script asks you for everything you need step by step! It creates its own directory to store files, so it doesnt destroy your computer accidentally or deletes important files! THIS IS A W.I.P!
+EasyShell-Bash-Edition is a modern, updated version of EasyShell-NT-Edition - this was the same thing but for Windows and DOS! 
+
+It makes using your Computer easy! You dont enter parameters but instead the Script asks you for everything you need step by step! It creates its own directory to store files, so it doesnt destroy your computer accidentally or deletes important files! THIS IS A W.I.P!
 
 HOW TO USE:
 Unzip the downloaded files and go into the folder called "EasyShell-Bash-Edition", then run "./start.sh" via terminal. 
 Enter "0" then press the ENTER key!
-First enter an account name and a password - these dont need to match your PC!
-Run "./start.sh" again, type "1" and press the ENTER key! Enter the name and password you just entered and then you are ready to go!
+First enter an account name and a password - these dont need to match your PC! Type "1" and press the ENTER key! Enter the name and password you just entered and then you are ready to go!
 
 WHAT IF I FORGOT MY NAME OR PASSWORD? 
 You can reset your Account by restarting the shell with "quit" or pressing CTRL and C at the same time.
