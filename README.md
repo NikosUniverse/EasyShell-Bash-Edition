@@ -1,2 +1,2 @@
 # EasyShell-Bash-Edition
-EasyShell-Bash-Edition is a modern, updated version of EasyShell-NT-Edition - this was the same thing but for Windows and DOS!
+EasyShell-Bash-Edition is a modern, updated version of EasyShell-NT-Edition - this was the same thing but for Windows and DOS! It makes using your Computer easy! You dont enter parameters but instead the Script asks you for everything you need step by step! It creates its own directory to store files, so it doesnt destroy your computer accidentally or deletes important files! THIS IS A W.I.P!
