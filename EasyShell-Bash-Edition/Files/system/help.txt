@@ -10,6 +10,7 @@ listfiles -- lists every file in /home
 fileview -- read a file
 textedit -- openes a text editor (nano)
 install -- installs a package
+update -- updates your system packages
 quit - OR - [Ctrl]+[C] to exit
 
           INFORMATION:
