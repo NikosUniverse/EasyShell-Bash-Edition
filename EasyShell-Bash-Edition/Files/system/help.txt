@@ -1,0 +1,35 @@
+------------------------------------
+ HELP FOR EASY SHELL - BASH EDITION
+------------------------------------
+
+          COMMAND LIST:
+help -- shows a help-document
+makefile -- creates a text-file
+removefile -- removes a file             - W.I.P.
+fileview -- read a file                  - W.I.P.
+textedit -- openes a text editor (nano)  - W.I.P.
+install -- installs a package
+quit - OR - [Ctrl]+[C] to exit
+
+          INFORMATION:
+1 - Install only works for Distros with the following PMs:
+    -Pacman
+    -Pamac
+    -Yay
+    [more will be added later!]
+
+
+
+          WORK IN PROGRESS:
+1 - You will later be able to run a shell-script via EasyShell!
+2 - You will later be able to make directories via EasyShell!
+3 - Support for more package managers will be added!
+4 - Password- and Userfile will be encrypted later!
+5 - All other features from EasyShell-NT-Edition will be moved to the EasyShell-Bash-Edition!
+6 - Renew EasyShell-NT-Edition and upload it to GitHub!
+7 - You will later be able to store Information inside of your account!
+8 - You will be able to send Emails, browse the web and play music!
+ (if you want to see more, you can message NikosUniverse)
+
+ ------------------------------------
+
