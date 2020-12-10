@@ -19,6 +19,8 @@
 #  -filename
 #  -filetype
 #  -filetoread
+#  -filetodelete
+#  -filetoedit
 #-------------
 
 #-------------
@@ -168,7 +170,7 @@ then
     printf "$username > "
     read -r filetoread
     clear
-    cat ./home/$filetoread
+    cat $filetoread
     echo ""
     echo ""
     echo "-------------------------------------------------"
@@ -179,8 +181,56 @@ then
     cd ./system
     clear
 
-#textedit
+#removefile
+elif [ "$command" == "removefile" ]
+then
+    clear
+    cd ..
+    cd ./home
+    echo "What is the Name of the Document? [eg. notes.txt]"
+    printf "$username > "
+    read -r filetodelete
+    clear
+    rm $filetodelete
+    clear
+    echo "File "$filetodelete" deleted!"
+    sleep 2
+    cd ..
+    cd ./system
+    clear
 
+#listfiles
+elif [ "$command" == "listfiles" ]
+then
+  clear
+  cd ..
+  cd ./home
+  ls -s
+  echo ""
+  echo ""
+  echo "-------------------------------------------------"
+  echo "  Press [ENTER] to continue..."
+  echo ""
+  read startup7
+  cd ..
+  cd ./system
+  clear
+
+#textedit
+elif [ "$command" == "textedit" ]
+then
+    clear
+    cd ..
+    cd ./home
+    echo "What is the Name of the Document? [eg. notes.txt]"
+    printf "$username > "
+    read -r filetoedit
+    clear
+    nano $filetoedit
+    clear
+    cd ..
+    cd ./system
+    clear
 
 #install
 elif [ "$command" == "install" ]
@@ -277,4 +327,3 @@ for (( ; ; ))
 do
    menu
 done
-
