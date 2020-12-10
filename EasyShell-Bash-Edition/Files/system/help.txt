@@ -29,6 +29,7 @@ quit - OR - [Ctrl]+[C] to exit
 6 - Renew EasyShell-NT-Edition and upload it to GitHub!
 7 - You will later be able to store Information inside of your account!
 8 - You will be able to send Emails, browse the web and play music!
+9 - I will add games and other cool utilities to work with!
  (if you want to see more, you can message NikosUniverse)
 
  ------------------------------------
