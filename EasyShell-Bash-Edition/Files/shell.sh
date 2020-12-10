@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-# Nikos Easy Shell
+#------------------------------------------------------------------------
 # EasyShell-Bash-Edition
 # Made with .sh shellscript
 # Author: NikosUniverse
+#
+# https://github.com/NikosUniverse/EasyShell-Bash-Edition/
+#------------------------------------------------------------------------
 
 #-------------
 # VAR-LIST:
@@ -26,6 +29,7 @@
 #-------------
 # SCRIPT:
 #-------------
+
 mkdir home
 cd ./system
 touch user.txt
@@ -232,6 +236,34 @@ then
     cd ./system
     clear
 
+#update
+elif [ "$command" == "update" ]
+then
+    clear
+    echo "What Package Manager?"
+    echo "(1) - Pacman"
+    echo "(2) - Pamac"
+    echo "(3) - yay"
+    printf "$username > "
+    read -r pama
+    if [ "$pama" == "1" ]
+    then
+        clear
+        sudo pacman -Syu
+        clear
+    elif [ "$pama" == "2" ]
+    then
+        clear
+        sudo pamac update &&  sudo pamac upgrade
+        clear
+    elif [ "$pama" == "3" ]
+    then
+        clear
+        echo "Updating is not available in YAY."
+        sleep 3
+        clear
+    fi
+
 #install
 elif [ "$command" == "install" ]
 then
@@ -311,13 +343,13 @@ then
         then
             if [ "$installdo" == "1" ]
             then
-                sudo pamac install "$paname"
+                pamac install "$paname"
             elif [ "$installdo" == "2" ]
             then
-                sudo pamac search "$paname"
+                pamac search "$paname"
             elif [ "$installdo" == "3" ]
             then
-                sudo pamac remove "$paname"
+                pamac remove "$paname"
             fi
         fi
     fi
