@@ -236,6 +236,32 @@ then
     cd ./system
     clear
 
+#coinflip
+elif [ "$command" == "coinflip" ]
+then
+  clear
+  FLIP=$(($(($RANDOM%10))%2))
+    if [ $FLIP == 1 ]
+    then
+    echo "Tails"
+  else
+    echo "Heads"
+  fi
+  echo ""
+  echo ""
+  echo "-------------------------------------------------"
+  echo "  Press [ENTER] to continue..."
+  echo ""
+  read startup8
+  clear
+
+#starwars
+elif [ "$command" == "starwars" ]
+then
+    clear
+    telnet towel.blinkenlights.nl
+    clear
+
 #update
 elif [ "$command" == "update" ]
 then
