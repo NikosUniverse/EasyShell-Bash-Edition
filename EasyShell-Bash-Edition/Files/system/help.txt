@@ -11,6 +11,8 @@ fileview -- read a file
 textedit -- openes a text editor (nano)
 install -- installs a package
 update -- updates your system packages
+coinflip -- flips a coin
+starwars -- shows an asciianimation of star wars
 quit - OR - [Ctrl]+[C] to exit
 
           INFORMATION:
